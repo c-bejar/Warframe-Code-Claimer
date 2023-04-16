@@ -248,4 +248,6 @@ browse_button2.grid(row=0, column=1, padx=10)
 path2 = customtkinter.CTkLabel(master=buttonFrame, text='No Directory Selected', corner_radius=1)
 path2.grid(row=1, column=1, sticky="W", padx=10)
 
+root.attributes('-topmost', True)
+
 root.mainloop()
