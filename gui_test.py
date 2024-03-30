@@ -210,7 +210,7 @@ frame = customtkinter.CTkFrame(master=root)
 frame.pack(pady=20, padx=60, fill="both", expand=True)
 
 # title label
-label = customtkinter.CTkLabel(master=frame, text="WARFRAnE\nCODE CLAIMER", font=("Warframe Fan Font", 20))
+label = customtkinter.CTkLabel(master=frame, text="WARFRAME\nCODE CLAIMER", font=("Warframe Fan Font", 20))
 label.pack(pady=10)
 
 # email field
